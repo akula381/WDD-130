@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rock+Salt&display=swap');
+
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 4fr 4fr 1fr;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding:0%;
+    border: 0;
+}
+img {
+    grid-column: 2/3;
+    grid-row: 1/5;
+    width: 100%;     
+}
+
+h1, h2, footer{
+    font-family: 'Montserrat', 'Rock Salt', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    
+}
+    
+h1 {    
+    grid-column: 2/4;
+    grid-row: 1/2;
+    z-index: 1;
+    font-size: 180px;    
+    margin-top: 120px;
+    letter-spacing: 12px;
+}
+
+h2 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    z-index: 1;    
+    font-size: 100px;
+    color: #e5595b;
+    letter-spacing:15px    
+}
+
+#background {
+    grid-column: 3/4;
+    grid-row: 1/5;
+    background-color: #7e787e;
+}        
+
+footer {
+    font-size: 1.5em;    
+}
