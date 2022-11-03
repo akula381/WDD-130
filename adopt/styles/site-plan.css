@@ -5,21 +5,21 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #C59FC9   ;
-  --secondary-color: #CFBAE1 ;
-  --accent1-color: #C1E0F7;
-  --accent2-color: #A4DEF9;
+  --primary-color: #1F2421  ;
+  --secondary-color: #216869 ;
+  --accent1-color: #49A078;
+  --accent2-color: #9CC5A1;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Roboto";
   --paragraph-font: "Poppins";
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #C59FC9;  /* headlines on a white background */ 
+  --headline-color-on-white: #1F2421;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #C59FC9; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #1F2421; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: hsl(297, 27%, 46%)  ;
+  --paragraph-background-color: hsl(0, 0%, 2%)  ;
   --nav-link-color: #ffffff;
   --nav-background-color: #000000;
   --nav-hover-link-color: white;
