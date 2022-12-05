@@ -143,9 +143,6 @@ footer .social img{
     margin-left: auto;
     margin-right: auto;
 }
-main section img{
-    box-sizing: border-box;
-}
 nav{
     display: flex;
     justify-content: space-around;
@@ -244,18 +241,19 @@ nav{
 }
 
 body {
-  font-family: Bodonic;
+    font-family: 'Poppins';
+
   font-size: 20px;
 }
 
-.container {
+.container-dog {
     position: relative;
     max-width: 10000px; /* Maximum width */
     margin: 0 auto; /* Center it */
   }
 .container img {vertical-align: middle;}
 
-  .container .content {
+  .container-dog .content {
     position: absolute; /* Position the background text */
     bottom: 0; /* At the bottom. Use top:0 to append it to the top */
     background: rgb(0, 0, 0); /* Fallback color */
@@ -265,5 +263,35 @@ body {
     padding: 20px; /* Some padding */
     Font-size: 20px;
     font-weight: bold;
+
   }
- 
+  .donation-container {
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: 'Poppins';
+  }
+  
+  /* Add styles to the form container */
+  .container {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+    font-family: 'Poppins';
+
+  }
+  
+  /* Full-width input fields */
+    input[type=text], input[type=password] {
+    width: 10%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    font-family: 'Poppins';
+  }
